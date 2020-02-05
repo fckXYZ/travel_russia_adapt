@@ -1,0 +1,25 @@
+@import url(__pic/route__pic.css);
+@import url(__caption/route__caption.css);
+
+.lead__route {
+    margin: 78px auto 0px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .lead__route {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__route {
+        margin-top: 78px;
+    }
+}
+
+@media (max-width: 425px) {
+    .lead__route {
+        margin-top: 32px;
+    }
+}

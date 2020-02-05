@@ -1,0 +1,31 @@
+.route__caption {
+    font-family: 'Inter';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 11px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .route__caption {
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .route__caption {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 460px) {
+    .route__caption {
+        margin-top: 8px;
+        margin-left: 16px;
+    }
+}

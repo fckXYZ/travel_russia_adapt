@@ -1,0 +1,36 @@
+@import url(../../../fonts/fonts.css);
+@import url(__links/footer__links.css);
+@import url(__link/footer__link.css);
+@import url(__copyright/footer__copyright.css);
+
+.footer {
+    margin: 160px auto 0;
+    max-width: 1184px;
+    width: calc(100vw - 96px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        max-width: 929px;
+        width: calc(100vw - 46px);
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 102px;
+        max-width: 722px;
+        width: calc(100vw - 32px);
+    }
+}
+
+@media (max-width: 460px) {
+    .footer {
+        margin-top: 64px;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,16 @@
+@import url(../../../fonts/fonts.css);
+@import url(__subtitle/cover__subtitle.css);
+@import url(__title/cover__title.css);
+@import url(__container/cover__container.css);
+
+.cover {
+    margin: 102px auto 0;
+    max-width: 1184px;
+    width: 100%;
+}
+
+@media (max-width: 460px) {
+    .cover {
+        margin-top: 48px;
+    }
+}

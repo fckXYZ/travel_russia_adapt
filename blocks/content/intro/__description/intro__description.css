@@ -1,0 +1,18 @@
+@import url(../__span/intro__span.css);
+
+.intro__description {
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.5;
+    color: white;
+}
+
+@media (max-width: 425px) {
+    .intro__description {
+        font-size: 12px;
+    }
+}

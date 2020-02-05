@@ -1,0 +1,34 @@
+@import url(../blocks/content/common/url-heading.css);
+@import url(../blocks/content/common/content-title.css);
+@import url(../blocks/content/common/content-subtitle.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/content/lead/lead.css);
+@import url(../blocks/content/intro/intro.css);
+@import url(../blocks/content/photo-grid/photo-grid.css);
+@import url(../blocks/content/places/places.css);
+@import url(../blocks/content/video/video.css);
+@import url(../blocks/content/additional/additional.css);
+@import url(../blocks/content/comments/comments.css);
+@import url(../blocks/content/cover/cover.css);
+@import url(../blocks/content/emblem/emblem.css);
+@import url(../blocks/content/barentsburg/barentsburg.css);
+@import url(../blocks/footer/footer.css);
+
+.page {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    padding-top: 30px;
+    padding-bottom: 48px;
+    background-color: #2A2C2F;
+}
+
+@media (max-width: 768px) {
+    .page {
+        padding-top: 16px;
+        padding-bottom: 24px;
+    }
+}

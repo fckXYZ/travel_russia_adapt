@@ -1,0 +1,14 @@
+@import url(../__description/intro__description.css);
+
+.intro__description-container {
+    margin-top: 24px;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+@media (max-width: 425px) {
+    .intro__description-container {
+        margin-top: 32px;
+    }
+}
