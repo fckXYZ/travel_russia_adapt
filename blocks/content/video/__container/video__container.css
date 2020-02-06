@@ -1,0 +1,28 @@
+.video__container {
+    margin: 72px auto 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, calc((100% - 18px)/2));
+    grid-column-gap: 18px;
+    grid-row-gap: 8px;
+}
+
+@media (max-width: 1024px) {
+    .video__container {
+        grid-template-columns: repeat(auto-fill, calc((100% - 16px)/2));
+        grid-column-gap: 16px;   
+    }
+}
+
+@media (max-width: 768px) {
+    .video__container {
+        margin-top: 56px;
+    }
+}
+
+@media (max-width: 460px) {
+    .video__container {
+        margin-top: 24px;
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+}

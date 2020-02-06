@@ -1,0 +1,28 @@
+.header__lang {
+    line-height: 1;
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: opacity linear .5s;
+}
+
+.header__lang:hover {
+    opacity: .5;
+}
+
+@media (max-width: 768px) {
+    .header__lang {
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 460px) {
+    .header__lang {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,29 @@
+@import url(../../../fonts/fonts.css);
+@import url(__place/places__place.css);
+@import url(__place/__title/place__title.css);
+
+.places {
+    margin: 92px auto 0px;
+    width: calc(100vw - 96px);
+    max-width: 984px;
+}
+
+@media (max-width: 1024px) {
+    .places {
+        margin-top: 102px;
+    }
+}
+
+@media (max-width: 768px) {
+    .places {
+        width: calc(100vw - 32px);
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 460px) {
+    .places {
+        margin-top: 64px;
+        width: 100vw;
+    }
+}

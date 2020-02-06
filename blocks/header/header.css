@@ -1,0 +1,29 @@
+@import url(../../fonts/fonts.css);
+@import url(__lang/header__lang.css);
+@import url(__lang/_active/header__lang_active.css);
+@import url(__logo/header__logo.css);
+
+.header {
+    max-width: 1184px;
+    width: calc(100vw - 96px);
+    margin: 0px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        width: calc(100vw - 48px);
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: calc(100vw - 32px);
+        max-width: 720px;
+    }
+    
+}

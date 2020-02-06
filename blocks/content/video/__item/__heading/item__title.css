@@ -1,0 +1,31 @@
+.item__title {
+    position: relative;
+    z-index: 10;
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    max-width: 322px;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .item__title {
+        margin-top: 8px;
+        margin-left: 24px;
+        font-size: 24px;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 320px) {
+    .item__title {
+        margin-left: 16px;
+    }
+}

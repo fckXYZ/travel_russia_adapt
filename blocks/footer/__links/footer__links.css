@@ -1,0 +1,7 @@
+@media (max-width: 460px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}

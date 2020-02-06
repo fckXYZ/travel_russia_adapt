@@ -1,0 +1,22 @@
+@import url(../../../fonts/fonts.css);
+@import url(__container/comments__container.css);
+@import url(__comment/comments__comment.css);
+
+.comments {
+    margin: 102px auto 0px;
+    max-width: 1184px;
+    width: calc(100vw - 96px);
+}
+
+@media (max-width: 768px) {
+    .comments {
+        max-width: 660px;
+        width: calc(100vw - 32px);
+    }
+}
+
+@media (max-width: 425px) {
+    .comments {
+        margin-top: 64px;
+    }
+}

@@ -1,0 +1,40 @@
+.item__duration {
+    margin-top: 94px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 1024px) {
+    .item__duration {
+        margin-top: 54px;
+    }
+}
+
+@media (max-width: 768px) {
+    .item__duration {
+        margin-top: 16px;
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    .item__duration {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .item__duration {
+        margin-top: 23px;
+        margin-left: 16px;
+    }
+}

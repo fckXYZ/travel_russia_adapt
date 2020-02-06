@@ -1,0 +1,14 @@
+@import url(__author/capture__author.css);
+@import url(__quote/capture__quote.css);
+
+.comment__capture {
+    margin: 42px 0px 0px;
+}
+
+@media (max-width: 768px) {
+    .comment__capture {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+}

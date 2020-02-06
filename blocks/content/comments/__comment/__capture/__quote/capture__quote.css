@@ -1,0 +1,16 @@
+.capture__quote {
+    margin: 42px 0 0;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .capture__quote {
+        margin-top: 24px;
+    }
+}

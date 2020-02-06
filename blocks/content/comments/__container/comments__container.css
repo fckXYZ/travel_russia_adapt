@@ -1,0 +1,26 @@
+.comments__container {
+    margin: 71px auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, calc((100% - 38px)/3));
+    grid-gap: 19px;
+}
+
+
+@media (max-width: 768px) {
+    .comments__container {
+        grid-template-columns: repeat(auto-fill, 100%);
+        grid-row-gap: 48px;
+    }
+}
+
+@media (max-width: 425px) {
+    .comments__container {
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 320px) {
+    .comments__container {
+        margin-top: 40px;
+    }
+}

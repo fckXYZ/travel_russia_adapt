@@ -1,0 +1,17 @@
+@import url(../../fonts/fonts.css);
+@import url(../../../blocks/content/lead/__route/lead__route.css);
+@import url(../../../blocks/content/lead/__title/lead__title.css);
+@import url(../../../blocks/content/lead/__subtitle/lead__subtitle.css);
+
+.lead {
+    max-width: 985px;
+    margin: 48px auto 0px;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        width: 100%;
+        max-width: 928px;
+    }
+}
+
